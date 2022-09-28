@@ -6,17 +6,17 @@ nav_order: 4
 
 # Embedding from your digital collections
 
-When embedding an item the best option is to look for an embed code option for the item you would like to add to your markdown page. You can slap html or an iframe directly into markdown.
+When embedding an item the best option is to look for an embed code option for the item you would like to add to your markdown page. You can add html or an iframe directly into Markdown.
 ____
 
 # YouTube:
 Just grab the embed link from the share button, add the iframe to your markdown file.
 
 ```html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4vXB2R8ybDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4xIKR6gpx-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4vXB2R8ybDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4xIKR6gpx-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 # Embedding a slide deck:  
@@ -38,11 +38,11 @@ Are you hosting Reveal.js slides on your GitHub Pages? Just paste the link into 
 In Google Slides, go to File, Publish to Web, Embed and publish your slides. Copy the embed code then paste the code into your Markdown file:
 
 ```html
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT5hKsfivsyGgfRjsl0nKCHasqOuuZ3Rdoqm_OwVwPAWEo8HYDwx4RHy8LlZgYi1MSELhhUwh8ID3vZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="720" height="480"
+<iframe src="https://docs.google.com/presentation/d/13NT7_dHYqfO9jrxeh6gxwc1L6tVSNiKGLWGaQvMVaUw/edit#slide=id.g120f77ffb7b_0_77" frameborder="0" width="720" height="480"
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT5hKsfivsyGgfRjsl0nKCHasqOuuZ3Rdoqm_OwVwPAWEo8HYDwx4RHy8LlZgYi1MSELhhUwh8ID3vZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="720" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/13NT7_dHYqfO9jrxeh6gxwc1L6tVSNiKGLWGaQvMVaUw/edit#slide=id.g120f77ffb7b_0_77" frameborder="0" width="720" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
@@ -50,10 +50,10 @@ allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></
 # From a digital repository:
 
 ```html
-<iframe id="widgetPreview" frameBorder="0"  width="900px"  height="450px"  border="0px" style="border:0px solid white"  src="https://cudl.colorado.edu/luna/servlet/workspace/handleMediaPlayer?lunaMediaId=CUB~13~13~27~151317&embedded=true&cic=CUB%7E13%7E13&widgetFormat=javascript&widgetType=workspace&controls=1&nsip=1" ></iframe>  
+<iframe src="https://widgets.figshare.com/articles/6229142/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
 ```
 
-<iframe id="widgetPreview" frameBorder="0"  width="900px"  height="450px"  border="0px" style="border:0px solid white"  src="https://cudl.colorado.edu/luna/servlet/workspace/handleMediaPlayer?lunaMediaId=CUB~13~13~27~151317&embedded=true&cic=CUB%7E13%7E13&widgetFormat=javascript&widgetType=workspace&controls=1&nsip=1" ></iframe>  
+<iframe src="https://widgets.figshare.com/articles/6229142/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
 
 
 # A digital map:
@@ -81,5 +81,3 @@ Want to embed a Story Map? Same exact procedure. Replace everything after `src=`
 <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" title="CU Aerial Photo Collection (final)" src="https://storymaps.arcgis.com/stories/d3088d9b0e974dc7876e8a7d0ce90b0d"></iframe></div>
 
 *Note: if you want to enable scrolling, you'll need to set the following: `scrolling="yes"`. This is in the iframe code.
-
-Presto!

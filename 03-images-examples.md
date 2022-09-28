@@ -5,7 +5,7 @@ nav_order: 3
 ---
 # Adding images to your page or post
 
-#### Adding an image is super easy! Here are a few methods
+#### Here are a few methods to add images to your webpage:
 [View the source Markdown for this page](https://raw.githubusercontent.com/ubc-lib-geo/gis-workshop-waml-template/master/content/examples/images.md)
 
 
@@ -14,25 +14,23 @@ ___
 
 **Add an image from the web:**
 
-Start an in-line link with an exclamation point then place the alt text in the brackets followed by the image link in the parentheses:
+Start an in-line link with an exclamation point then place the alt text in the brackets followed by the image link in the parentheses. Alt text (or alternative text) is important to include with any image to ensure that people using screen readers can fully experience the content on your webpage.
 
 ```
-![Kenobi](https://upload.wikimedia.org/wikipedia/en/3/32/Ben_Kenobi.png)
+![Mars Rover](https://upload.wikimedia.org/wikipedia/commons/e/e6/Spirit_Rover_Model.jpg)
 ```
 
-![Kenobi](https://upload.wikimedia.org/wikipedia/en/3/32/Ben_Kenobi.png)
+![Mars Rover](https://upload.wikimedia.org/wikipedia/commons/e/e6/Spirit_Rover_Model.jpg)
 
 You can also add images "reference style." This is handy if you don't want to clutter up your Markdown or if you need to use an image more than once. You can just place the references at the bottom of the page. It goes like this:
 
 ```
-![GOAT][Simone]
+![The Red Planet][Mars]
 
-[Simone]: https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Simone_Biles_Rio_2016e.jpg/256px-Simone_Biles_Rio_2016e.jpg
+[Mars]: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1200px-OSIRIS_Mars_true_color.jpg
 ```
 
-![GOAT][Simone]
-
-Nice job!
+![The Red Planet][Mars]
 
 ___  
 
@@ -41,28 +39,11 @@ ___
 You can also add images from a file directory. If you're using GitHub Pages, that means you would want a folder where your content or images live in your GitHub repository. But note that internal links from a "post" can be a little tricky. See the [documentation](https://jekyllrb.com/docs/liquid/tags/#links).  
 
 ```
-![Good Boy](content/img/mtn-dog.jpg)
+![Early Engineering at CMU](content/img/Archival_GPC_05_CIT_ECE_Labwork_004.jpg)
 ```
 
-![Good Boy](content/img/mtn-dog.jpg)
+![Early Engineering at CMU](content/img/Archival_GPC_05_CIT_ECE_Labwork_004.jpg)
 
-
-Sweet!
-
-___
-
-**Add a different format:**
-
-Want to put a gif in there? No problem!
-
-```
-![Surfer Boy](https://media.giphy.com/media/dJUtqIcqeyMvK/giphy.gif)
-```
-
-![Surfer Boy](https://media.giphy.com/media/dJUtqIcqeyMvK/giphy.gif)
-
-"gif" is pronounced with a hard "g"
-{: .note}
 
 ___
 
@@ -73,22 +54,21 @@ To link an image, you just need to embed the image syntax within the syntax for 
 Here's a regular link:
 
 ```
-[CUB site](https://www.colorado.edu/)
+[CMU site](https://www.cmu.edu/)
 ```
 
-[CUB site](https://www.colorado.edu/)
+[CMU site](https://www.cmu.edu/)
 
 Here's a linked image:
 
 ```
-[![CU Logo](https://www.colorado.edu/profiles/express/themes/ucb/images/cu-boulder-logo-text-white.svg)](https://www.colorado.edu/)
+[![CMU logo](https://commons.wikimedia.org/wiki/File:Carnegie_Mellon_University_wordmark.svg)](https://www.cmu.edu/)
 ```
 
-[![CU Logo](https://www.colorado.edu/profiles/express/themes/ucb/images/cu-boulder-logo-text-white.svg)](https://www.colorado.edu/)
+[![CMU logo](https://commons.wikimedia.org/wiki/File:Carnegie_Mellon_University_wordmark.svg)](https://www.cmu.edu/)
 
 _Click Me!_
 
-So easy, right?!
 
 ____
 
@@ -98,14 +78,13 @@ You can also add html directly to Markdown. Say you wanted to change the size of
 
 
 ```
-<img src='content/img/mtn-dog.jpg' width='250' alt='Good Boy'>
+<img src='content/img/Archival_GPC_05_CIT_ECE_Labwork_004.jpg' width='250' alt='Early Engineering at CMU'>
 ```
 
 
-<img src='content/img/mtn-dog.jpg' width='250' alt='Good Boy'>
+<img src='content/img/Archival_GPC_05_CIT_ECE_Labwork_004.jpg' width='250' alt='Early Engineering at CMU'>
 
 
-![Snakes](https://i.giphy.com/media/5xtDartXnQbcW5CfM64/giphy.webp)
 
 <!--reference links-->
-[Simone]: https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Simone_Biles_Rio_2016e.jpg/256px-Simone_Biles_Rio_2016e.jpg
+[Mars]: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1200px-OSIRIS_Mars_true_color.jpg

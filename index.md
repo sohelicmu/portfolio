@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## Welcome everyone to my spiffy site!
+## Welcome to this sample portfolio!
 
 
 #### Here are some example pages:
