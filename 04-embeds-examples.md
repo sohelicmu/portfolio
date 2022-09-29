@@ -9,7 +9,7 @@ nav_order: 4
 When embedding an item the best option is to look for an embed code option for the item you would like to add to your markdown page. You can add html or an iframe directly into Markdown.
 ____
 
-# YouTube:
+## YouTube:
 Just grab the embed link from the share button, add the iframe to your markdown file.
 
 ```html
@@ -19,9 +19,10 @@ Just grab the embed link from the share button, add the iframe to your markdown 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4xIKR6gpx-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-# Embedding a slide deck:  
 
-# Reveal.js slides
+## Embedding a slide deck:  
+
+### Reveal.js slides
 
 Are you hosting Reveal.js slides on your GitHub Pages? Just paste the link into an iframe!
 
@@ -33,21 +34,21 @@ Are you hosting Reveal.js slides on your GitHub Pages? Just paste the link into 
 
 
 
-# Google slides
+### Google slides
 
 In Google Slides, go to File, Publish to Web, Embed and publish your slides. Copy the embed code then paste the code into your Markdown file:
 
 ```html
-<iframe src="https://docs.google.com/presentation/d/13NT7_dHYqfO9jrxeh6gxwc1L6tVSNiKGLWGaQvMVaUw/edit#slide=id.g120f77ffb7b_0_77" frameborder="0" width="720" height="480"
+<iframe src="https://docs.google.com/presentation/d/13NT7_dHYqfO9jrxeh6gxwc1L6tVSNiKGLWGaQvMVaUw/edit?usp=sharing" frameborder="0" width="720" height="480"
 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
-<iframe src="https://docs.google.com/presentation/d/13NT7_dHYqfO9jrxeh6gxwc1L6tVSNiKGLWGaQvMVaUw/edit#slide=id.g120f77ffb7b_0_77" frameborder="0" width="720" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/13NT7_dHYqfO9jrxeh6gxwc1L6tVSNiKGLWGaQvMVaUw/edit?usp=sharing" frameborder="0" width="720" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
 
-# From a digital repository:
+## From a digital repository:
 
 ```html
 <iframe src="https://widgets.figshare.com/articles/6229142/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
@@ -56,7 +57,7 @@ allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></
 <iframe src="https://widgets.figshare.com/articles/6229142/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
 
 
-# A digital map:
+## A digital map:
 
 **Basic Map**
 
