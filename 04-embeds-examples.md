@@ -39,11 +39,10 @@ Are you hosting Reveal.js slides on your GitHub Pages? Just paste the link into 
 In Google Slides, go to File, Publish to Web, Embed and publish your slides. Copy the embed code then paste the code into your Markdown file:
 
 ```html
-<iframe src="https://docs.google.com/presentation/d/13NT7_dHYqfO9jrxeh6gxwc1L6tVSNiKGLWGaQvMVaUw/edit?usp=sharing" frameborder="0" width="720" height="480"
-allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRwPKMbSD49CSVwJIzkldcLjyU4tp6vY-aNRZpEjO19PcTesANIXAO7A1L4DZQXweUz0xESeZAWVoY4/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
-<iframe src="https://docs.google.com/presentation/d/13NT7_dHYqfO9jrxeh6gxwc1L6tVSNiKGLWGaQvMVaUw/edit?usp=sharing" frameborder="0" width="720" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRwPKMbSD49CSVwJIzkldcLjyU4tp6vY-aNRZpEjO19PcTesANIXAO7A1L4DZQXweUz0xESeZAWVoY4/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
