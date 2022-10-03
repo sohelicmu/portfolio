@@ -42,7 +42,7 @@ In Google Slides, go to File, Publish to Web, Embed and publish your slides. Cop
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRwPKMbSD49CSVwJIzkldcLjyU4tp6vY-aNRZpEjO19PcTesANIXAO7A1L4DZQXweUz0xESeZAWVoY4/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRwPKMbSD49CSVwJIzkldcLjyU4tp6vY-aNRZpEjO19PcTesANIXAO7A1L4DZQXweUz0xESeZAWVoY4/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/13NT7_dHYqfO9jrxeh6gxwc1L6tVSNiKGLWGaQvMVaUw/edit?usp=sharing" frameborder="0" width="720" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
@@ -63,10 +63,10 @@ In Google Slides, go to File, Publish to Web, Embed and publish your slides. Cop
 We'll start with a basic map. Once you've saved any map in ArcGIS Online, you can get it's embed code by clicking Share. Because you can add HTML directly to Markdown, just paste the code provided by AGOL directly into the Markdown file:
 
 ```
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe src="https://storymaps.arcgis.com/stories/f75b31829f5744809834231307484682" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe></div>
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="CU Aerial Photo Collection (final)" src="//ucboulder.maps.arcgis.com/apps/Embed/index.html?webmap=68fe25f1df2149878fa88e15a4044d52&extent=-108.1261,38.2881,-101.4079,41.3297&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
 ```
 
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe src="https://storymaps.arcgis.com/stories/f75b31829f5744809834231307484682" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe></div>
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="CU Aerial Photo Collection (final)" src="//ucboulder.maps.arcgis.com/apps/Embed/index.html?webmap=68fe25f1df2149878fa88e15a4044d52&extent=-108.1261,38.2881,-101.4079,41.3297&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
 
 
 **Embedding a StoryMap**
@@ -74,10 +74,10 @@ We'll start with a basic map. Once you've saved any map in ArcGIS Online, you ca
 Want to embed a Story Map? Same exact procedure. Replace everything after `src=` and before </iframe> with the url for the Story Map:
 
 ```
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" title="CU Aerial Photo Collection (final)" src="https://storymaps.arcgis.com/stories/d3088d9b0e974dc7876e8a7d0ce90b0d"></iframe></div>
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe src="https://storymaps.arcgis.com/stories/f75b31829f5744809834231307484682" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe></div>
 ```
 
 
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" title="CU Aerial Photo Collection (final)" src="https://storymaps.arcgis.com/stories/d3088d9b0e974dc7876e8a7d0ce90b0d"></iframe></div>
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe src="https://storymaps.arcgis.com/stories/f75b31829f5744809834231307484682" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe></div>
 
 *Note: if you want to enable scrolling, you'll need to set the following: `scrolling="yes"`. This is in the iframe code.
