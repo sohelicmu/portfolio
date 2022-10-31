@@ -62,13 +62,14 @@ Here's a regular link:
 Here's a linked image:
 
 ```
-[![CMU logo](https://upload.wikimedia.org/wikipedia/commons/7/72/CMU_logo_stack_cmyk_red.jpg)](https://www.cmu.edu/)
+[![CMU logo](content/img/CMU_logo_stack_cmyk_red.jpg)](https://www.cmu.edu/)
 ```
 
-[![CMU logo](https://commons.wikimedia.org/wiki/File:Carnegie_Mellon_University_wordmark.svg)](https://www.cmu.edu/)
+[![CMU logo](content/img/CMU_logo_stack_cmyk_red.jpg)](https://www.cmu.edu/)
 
 _Click Me!_
 
+This image file lives in the GitHub repository in the content folder.
 
 ____
 
