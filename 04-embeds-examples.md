@@ -22,27 +22,15 @@ Just grab the embed link from the share button, add the iframe to your markdown 
 
 ## Embedding a slide deck:  
 
-### Reveal.js slides
-
-Are you hosting Reveal.js slides on your GitHub Pages? Just paste the link into an iframe!
-
-```html
-<iframe width="720" height="480" frameborder="0" marginheight="0" marginwidth="0" src="https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/slides/waml_github20"></iframe>
-```
-
-<iframe width="720" height="480" frameborder="0" marginheight="0" marginwidth="0" src="https://ubc-lib-geo.github.io/gis-workshop-waml-template/content/slides/waml_github20"></iframe>  
-
-
-
 ### Google slides
 
 In Google Slides, go to File, Publish to Web, Embed and publish your slides. Copy the embed code then paste the code into your Markdown file:
 
 ```html
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRwPKMbSD49CSVwJIzkldcLjyU4tp6vY-aNRZpEjO19PcTesANIXAO7A1L4DZQXweUz0xESeZAWVoY4/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRda_iDkyPInOqL1YLCejV-9djrF9_a_DVQSNM8wUXn6n-qLGVfbDPr1SC0UWFl5RwaL8HSta4a4rUx/embed?start=false&loop=false&delayms=60000" frameborder="0" width="625" height="352" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
-<iframe src="https://docs.google.com/presentation/d/13NT7_dHYqfO9jrxeh6gxwc1L6tVSNiKGLWGaQvMVaUw/edit?usp=sharing" frameborder="0" width="720" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRda_iDkyPInOqL1YLCejV-9djrF9_a_DVQSNM8wUXn6n-qLGVfbDPr1SC0UWFl5RwaL8HSta4a4rUx/embed?start=false&loop=false&delayms=60000" frameborder="0" width="625" height="352" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
