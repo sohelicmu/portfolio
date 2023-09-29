@@ -28,7 +28,7 @@ twitter_username: cmu
 github_username:  sohelicmu
 
 # Build settings
-theme: jekyll-theme-architect
+theme: minima
 plugins:
   - jekyll-feed
 
