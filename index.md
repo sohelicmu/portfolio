@@ -3,8 +3,11 @@ layout: default
 title: Home
 ---
 
-## Welcome to this sample portfolio!
+# My portfolio
 
+Welcome to my site!
+
+Check out the [CMU Libraries](https://www.library.cmu.edu/).
 
 #### Here are some example pages:
 
