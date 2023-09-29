@@ -6,7 +6,7 @@ nav_order: 3
 # Adding images to your page or post
 
 #### Here are a few methods to add images to your webpage:
-[View the source Markdown for this page](https://raw.githubusercontent.com/ubc-lib-geo/gis-workshop-waml-template/master/content/examples/images.md)
+[View the source Markdown for this page](https://raw.githubusercontent.com/cmu-lib/portfolio/main/03-images-examples.md)
 
 
 
